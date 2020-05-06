@@ -1,0 +1,75 @@
+body {
+	background-image: url("C:/Users/SuperSnake/Desktop/techdegree/project_5/cover.jpg");
+	background-size: cover;
+	font-family: 'Manrope', sans-serif;
+	font-weight: 800;
+}
+
+.main_content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+	margin: 1.5em;
+}
+
+.first_line {
+	display: flex;
+	justify-content: center;
+	flex-basis: 100%;
+	margin: 1em;
+}
+
+.first_line input {
+	flex-grow: 0.3;
+	padding: 0.5em;
+	border: firebrick 2px solid;
+	transition: transform 1s;
+	transition-delay: 1s;
+}
+
+.first_line input:hover {
+	transform: scale(1.05);
+}
+
+.first_line input[placeholder] {
+	text-align: center;
+	font-weight: 800;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 23%;
+	margin: 0.5em;
+}
+
+a {
+	text-decoration: none;
+	color: #260C0C;
+	margin: 0.5em auto;
+	transition: opacity 2s, color 1s;
+}
+
+a:hover {
+	opacity: 0.7;
+	color: firebrick;
+}
+
+.lb-data .lb-details {
+    text-align: center;
+}
+
+img {
+	border: black 2px solid;
+	transition: opacity 2s, border-color 2s, transform 1s;
+	transition-delay: 0.4s;
+	border-radius: 5%;
+}
+
+img:hover {
+	opacity: 0.7;
+	border-color: firebrick;
+	transform: scale(1.05);
+}

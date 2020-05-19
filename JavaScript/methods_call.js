@@ -16,3 +16,5 @@ $('#search').hideseek({
 		      	'navigation':     true,
 		      	'ignore_accents': true,      
 			});
+
+
